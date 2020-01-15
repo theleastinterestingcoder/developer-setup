@@ -1,0 +1,106 @@
+# Color L
+colorflag="-G"
+#alias ls="command ls ${colorflag}"
+alias l="ls -lF ${colorflag}" # all files, in long format
+alias la="ls -laF ${colorflag}" # all files inc dotfiles, in long format
+alias lsd='ls -lF ${colorflag} | grep "^d"' # only directories
+# Colored up cat!
+# You must install Pygments first - "sudo easy_install Pygments"
+alias c='pygmentize -O style=monokai -f console256 -g'
+#Colors for LS
+export LSCOLORS="GxGxBxDxCxEgEdxbxgxcxd"
+export TERM="xterm-color"
+### Prompt Colors
+# Modified version of @gf3’s Sexy Bash Prompt
+# (https://github.com/gf3/dotfiles)
+if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
+	export TERM=gnome-256color
+elif infocmp xterm-256color >/dev/null 2>&1; then
+	export TERM=xterm-256color
+fi
+
+if tput setaf 1 &> /dev/null; then
+	tput sgr0
+	if [[ $(tput colors) -ge 256 ]] 2>/dev/null; then
+		BLACK=$(tput setaf 190)
+		MAGENTA=$(tput setaf 9)
+		ORANGE=$(tput setaf 172)
+		GREEN=$(tput setaf 190)
+		PURPLE=$(tput setaf 141)
+		WHITE=$(tput setaf 0)
+	else
+		BLACK=$(tput setaf 190)
+		MAGENTA=$(tput setaf 5)
+		ORANGE=$(tput setaf 4)
+		GREEN=$(tput setaf 2)
+		PURPLE=$(tput setaf 1)
+		WHITE=$(tput setaf 7)
+	fi
+	BOLD=$(tput bold)
+	RESET=$(tput sgr0)
+else
+	BLACK="\033[01;30m"
+	MAGENTA="\033[1;31m"
+	ORANGE="\033[1;33m"
+	GREEN="\033[1;32m"
+	PURPLE="\033[1;35m"
+	WHITE="\033[1;37m"
+	BOLD=""
+	RESET="\033[m"
+fi
+
+export BLACK
+export MAGENTA
+export ORANGE
+export GREEN
+export PURPLE
+export WHITE
+export BOLD
+export RESET
+
+# Git branch details
+function parse_git_dirty() {
+	[[ $(git status 2> /dev/null | tail -n1) != *"working directory clean"* ]] && echo "*"
+}
+function parse_git_branch() {
+	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
+}
+
+# Change this symbol to something sweet.
+# (http://en.wikipedia.org/wiki/Unicode_symbols)
+symbol="☵ "
+
+export PS1="\[${BOLD}${MAGENTA}\]\u \[$RESET\]at \[$PURPLE\]\@ \[$RESET\]in \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$ORANGE\]\n$symbol\[$RESET\]"
+#export PS1="[ \e[ 0;32m]\t [ \e[ 32;1m]\u\h:[ \e[ 0;36m]\w[ \e[ 0m]$ "
+   
+export PS2="\[$ORANGE\]→ \[$RESET\]"
+
+### Misc
+
+# Only show the current directory's name in the tab - Quan turned this off so that new bash 
+#    windows would open in the same directory
+# export PROMPT_COMMAND='update_terminal_cwd; echo -ne "\033]0;${PWD##*/}\007"'
+# PROMPT_COMMAND="history -a; history -c; history -r"
+
+
+# enable color support of ls and also add handy aliases
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+# Export paths
+
+# Personal aliases
+alias ssource="source ~/.bash_profile"
+alias cd_git_root="cd $(git rev-parse --show-toplevel)"
+alias git_merge_base="git merge-base --fork-point master | tee >(tr -d '\n' | pbcopy)"
+alias git_autopep8="autopep8 (git diff HEAD^ HEAD --name-only |  grep -v .yaml) -i"
+alias git_tag_ordered="git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags"
+
+# Setup aliases
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export EDITOR=vim
+
+eval "$(rbenv init -)"
