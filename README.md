@@ -15,7 +15,9 @@ Also helpful for other people to see the tools that I'm using
 # Productivity 
 * [BetterTouchTool](https://folivora.ai/)
 [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) 
+* [Vimium - Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 
 # On a remote server
 tmux
 vim
+
