@@ -10,8 +10,6 @@ map :! moveTabToNewWindow
 map <c-o> Vomnibar.activateTabSelection
 
 # YAGNI
-unmap j
-unmap k
 unmap d
 unmap u
 unmap h
