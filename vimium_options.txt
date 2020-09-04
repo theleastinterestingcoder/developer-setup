@@ -1,0 +1,53 @@
+# Insert your preferred key mappings here.
+
+# Analogous vim bindings
+map :0 scrollToTop
+map <c-f> scrollFullPageDown
+map <c-b> scrollFullPageUp
+map <c-u> scrollPageUp
+map <c-d> scrollPageDown
+map :! moveTabToNewWindow
+map <c-o> Vomnibar.activateTabSelection
+
+# YAGNI
+unmap j
+unmap k
+unmap d
+unmap u
+unmap h
+unmap l
+unmap zH
+unmap zL
+unmap  r
+unmap  yy
+unmap  p
+unmap  P
+unmap  gu
+unmap  gU
+unmap <a-f>
+unmap  yf
+unmap  [[
+unmap  ]]
+unmap  o
+unmap  O
+unmap  b
+unmap  B
+unmap  ge
+unmap gE
+unmap H
+unmap L
+unmap  t
+unmap  J
+unmap gT
+unmap K
+unmap gt
+unmap g0
+unmap g$
+unmap yt
+unmap  <a-p>
+unmap  <a-m>
+unmap x
+unmap  X
+unmap W
+unmap gs
+unmap T
