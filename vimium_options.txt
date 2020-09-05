@@ -6,10 +6,13 @@ map <c-f> scrollFullPageDown
 map <c-b> scrollFullPageUp
 map <c-u> scrollPageUp
 map <c-d> scrollPageDown
-map :! moveTabToNewWindow
+map <c-t> moveTabToNewWindow
 map <c-o> Vomnibar.activateTabSelection
+map : LinkHints.activateMode
+map ' LinkHints.activateModeToOpenInNewTab
 
 # YAGNI
+unmap f
 unmap d
 unmap u
 unmap h
@@ -49,3 +52,5 @@ unmap  X
 unmap W
 unmap gs
 unmap T
+unmap gf
+unmap gF
