@@ -1,0 +1,24 @@
+# # # # # # # # # # # # # # # #
+# edited and generated from git config --list
+# # # # # # # # # # # # # # # #
+
+# Helpful
+color.ui=auto
+color.interactive=auto
+core.pager=less -F -X
+
+# Useful for info
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.logline=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.logbranch=log --all --graph --decorate --oneline --simplify-by-decoration
+
+# Personal use
+diff.tool=bc3
+difftool.bc4.trustexitcode=true
+merge.tool=bc3
+mergetool.bc3.cmd=bcomp $LOCAL $REMOTE $BASE $MERGED
+mergetool.bc3.trustexitcode=true
+
