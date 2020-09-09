@@ -11,13 +11,19 @@ export DEFAULT_USER='quanzhou'
 ZSH_DISABLE_COMPFIX=true 
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 
 # For stations with large and slow git repositories, use this:
 # https://github.com/sindresorhus/pure
 # --------------------------------------------------
-# autoload -U promptinit; promptinit
-# prompt pure
+autoload -U promptinit; promptinit
+prompt pure
+
+zstyle ':prompt:pure:prompt:success' color green
+zstyle ':prompt:pure:prompt:error' color red
+zstyle ':prompt:pure:git:action' show yes
+zstyle ':prompt:pure:git:dirty' show yes
+zstyle ':prompt:pure:git:stash' show yes
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
