@@ -54,3 +54,5 @@ unmap gs
 unmap T
 unmap gf
 unmap gF
+unmap <c-e>
+unmap <c-y>
