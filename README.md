@@ -51,7 +51,8 @@ Note: some command line tools install to `~/bin/`
        git config --global merge.tool bc3
        git config --global mergetool.bc3.trustExitCode true
      ```
-   * Setup rules based comparison so contents of files are looked at: https://www.scootersoftware.com/support.php?zz=kb_samebutdifferent
+   * Setup rules based comparison so contents of files are examined: https://www.scootersoftware.com/support.php?zz=kb_samebutdifferent
+   * Follow through on symbolic links (else, git difftool looks weird): https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/11818-git-dir-diff-doesn-t-seem-to-match-files
 
 # On a remote server
 tmux
