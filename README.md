@@ -6,11 +6,11 @@ Also helpful for other people to see the tools that I'm using
 # General Productivity
 * [BetterTouchTool](https://folivora.ai/) - for window snapping + shortcuts
   * costs money to get a license but I deem this to be worth it
-
 * [Chrome](https://www.google.com/chrome/) for the extensions
   * [Vimium - Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - for navigating web pages with vim hotkeys
   * [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) - for running javascript in the browser. Worth the $1.99 imo
-  
+* [Native slack](https://slack.com/downloads/mac) for messaging
+
 # Code Related
 * [Brew](https://brew.sh/) for package management
   * also installs xcode command line tools
@@ -20,6 +20,8 @@ Also helpful for other people to see the tools that I'm using
 * [pure](https://github.com/sindresorhus/pure) - For tricking out the terminal. Also performant for large code repos
   * note: Pure is a flavor of [ohyzsh](https://github.com/ohmyzsh/ohmyzsh)
   * another shell [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
+  * My setup is at https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.zshrc
+  * Profiles -> Man page for easy read. Slight opacity (92%)
 * [Sublime Text 3](https://www.sublimetext.com/3)
   * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
