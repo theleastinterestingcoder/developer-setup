@@ -30,9 +30,9 @@ Also helpful for other people to see the tools that I'm using
   * Here is my [.zshrc](https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.zshrc)
   * Note the dependency on [.bashrc](https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.bashrc)
   * Profiles -> Man page for easy read. Slight opacity (92%)
-* Setup SSH keys in github
-  * Generate one
-  * Add laptop to it
+* Setting up Git
+  * Generate + add ssh key on github. [Test it like this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/testing-your-ssh-connection)
+  * 
 
 # Coding Apps
 * [Sublime Text 3](https://www.sublimetext.com/3)
