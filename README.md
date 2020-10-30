@@ -43,13 +43,15 @@ Note: some command line tools install to `~/bin/`
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for easy git commit messages
 * [beyondcompare](https://www.scootersoftware.com/) - for diffing files
   * Pay some money to use as difftool and mergetool (worth it imo)
-  * `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp ~/bin/bcomp`
-  * ```
-       # https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/10672-bc4-not-recognized-as-git-difftool
+  * Launch from command line: `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp ~/bin/bcomp`
+  
+  * Hook up with gitdifftool: https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/10672-bc4-not-recognized-as-git-difftool
+   ```
        git config --global diff.tool bc3
        git config --global merge.tool bc3
        git config --global mergetool.bc3.trustExitCode true
      ```
+   * Setup rules based comparison so contents of files are looked at: https://www.scootersoftware.com/support.php?zz=kb_samebutdifferent
 
 # On a remote server
 tmux
