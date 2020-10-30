@@ -22,7 +22,8 @@ Also helpful for other people to see the tools that I'm using
   * another shell [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
 * [VSCode](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for easy git commit messages
-* [beyondcompare](https://www.scootersoftware.com/)
+* [beyondcompare](https://www.scootersoftware.com/) - for diffing files
+  * Pay some money to use as difftool and mergetool (worth it imo)
   * `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp /usr/local/bin/bcomp`
   * ```
        # https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/10672-bc4-not-recognized-as-git-difftool
