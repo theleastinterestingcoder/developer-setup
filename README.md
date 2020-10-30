@@ -3,14 +3,22 @@ To keep tabs on the list of commands that I need to run to get my laptop setup
 
 Also helpful for other people to see the tools that I'm using
 
-# Coding
+# General Productivity
+* [BetterTouchTool](https://folivora.ai/)
+
+* [Chrome](https://www.google.com/chrome/) for the extensions
+  * [Vimium - Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+  * [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) 
+  
+# Code Related
 * [Sublime Text 3](https://www.sublimetext.com/3)
   * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON)
-
-* [ohyzsh](https://github.com/ohmyzsh/ohmyzsh)
-  * [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
-  * [pure](https://github.com/sindresorhus/pure) - better for large git repos (agnoster is known to be hideously slow)
+* [pure](https://github.com/sindresorhus/pure) - For tricking out the terminal. Also performant for large code repos
+  * note: Pure is a flavor of [ohyzsh](https://github.com/ohmyzsh/ohmyzsh)
+  * another shell [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
+* [VSCode](https://code.visualstudio.com/)
+  * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for easy git commit messages
 * [beyondcompare](https://www.scootersoftware.com/)
   * `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp /usr/local/bin/bcomp`
   * ```
@@ -24,9 +32,9 @@ Also helpful for other people to see the tools that I'm using
 (*) = costs money to get a license but I deem this to be worth it
 
 # Productivity 
-* [BetterTouchTool](https://folivora.ai/)
-* [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) 
-* [Vimium - Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+
+
+
 
 # On a remote server
 tmux
