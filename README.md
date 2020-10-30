@@ -13,13 +13,16 @@ Also helpful for other people to see the tools that I'm using
   
 # Code Related
 * [Brew](https://brew.sh/) for package management
-  ** `brew install coreutils` for `greadlink`
-* [Sublime Text 3](https://www.sublimetext.com/3)
-  * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
-  * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
+  * also installs xcode command line tools
+  * `brew install coreutils` for `greadlink`
+  * `brew install tmux` for multiple panes
+  * `brew install npm` for node package manager
 * [pure](https://github.com/sindresorhus/pure) - For tricking out the terminal. Also performant for large code repos
   * note: Pure is a flavor of [ohyzsh](https://github.com/ohmyzsh/ohmyzsh)
   * another shell [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
+* [Sublime Text 3](https://www.sublimetext.com/3)
+  * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+  * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
 * [VSCode](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for easy git commit messages
 * [beyondcompare](https://www.scootersoftware.com/) - for diffing files
