@@ -1,4 +1,4 @@
-# developer-setup
+# Developer-setup
 To keep tabs on the list of commands that I need to run to get my laptop setup 
 
 Also helpful for other people to see the tools that I'm using
@@ -58,3 +58,9 @@ Note: some command line tools install to `~/bin/`
 tmux
 vim
 
+# For Pave
+1. If you haven't already, install `brew` and then:
+ * `brew install npm`
+ * `brew install nvm`
+2. Install the Firebase CLI:
+ * `curl -sL https://firebase.tools | bash`
