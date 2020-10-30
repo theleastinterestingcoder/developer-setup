@@ -12,6 +12,8 @@ Also helpful for other people to see the tools that I'm using
   * [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) - for running javascript in the browser. Worth the $1.99 imo
   
 # Code Related
+* [Brew](https://brew.sh/) for package management
+  ** `brew install coreutils` for `greadlink`
 * [Sublime Text 3](https://www.sublimetext.com/3)
   * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
@@ -28,7 +30,6 @@ Also helpful for other people to see the tools that I'm using
        git config --global merge.tool bc3
        git config --global mergetool.bc3.trustExitCode true
      ```
-* `brew install coreutils` for `greadlink`
 
 # Productivity 
 
