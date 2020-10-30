@@ -32,17 +32,18 @@ Also helpful for other people to see the tools that I'm using
   * Profiles -> Man page for easy read. Slight opacity (92%)
 * Setting up Git
   * Generate + add ssh key on github. [Test it like this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/testing-your-ssh-connection)
-  * 
 
 # Coding Apps
+Note: some command line tools install to `~/bin/`
+
 * [Sublime Text 3](https://www.sublimetext.com/3)
-  * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+  * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
 * [VSCode](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for easy git commit messages
 * [beyondcompare](https://www.scootersoftware.com/) - for diffing files
   * Pay some money to use as difftool and mergetool (worth it imo)
-  * `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp /usr/local/bin/bcomp`
+  * `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp ~/bin/bcomp`
   * ```
        # https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/10672-bc4-not-recognized-as-git-difftool
        git config --global diff.tool bc3
