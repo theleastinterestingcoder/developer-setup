@@ -16,8 +16,10 @@ Also helpful for other people to see the tools that I'm using
   * [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) for viewing markdown readme.md in code
 * [Native slack](https://slack.com/downloads/mac) for messaging
 
-# Code Related
-* [Brew](https://brew.sh/) for package management
+# Environment Related
+* Fundamental stuff
+  * `mkdir ~/bin` for custom scripts and installation (often for launching tools like sublime for shell)
+* [Brew](https://brew.sh/) for package management‰
   * also installs xcode command line tools
   * `brew install coreutils` for `greadlink`
   * `brew install tmux` for multiple panes
@@ -25,8 +27,14 @@ Also helpful for other people to see the tools that I'm using
 * [pure](https://github.com/sindresorhus/pure) - For tricking out the terminal. Also performant for large code repos
   * note: Pure is a flavor of [ohyzsh](https://github.com/ohmyzsh/ohmyzsh)
   * another shell [agnoster](https://github.com/agnoster/agnoster-zsh-theme) - might require [this workaround for strange symbols](https://github.com/ohmyzsh/ohmyzsh/issues/1906#issuecomment-275733922)
-  * My setup is at https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.zshrc
+  * Here is my [.zshrc](https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.zshrc)
+  * Note the dependency on [.bashrc](https://github.com/theleastinterestingcoder/developer-setup/blob/master/bash/.bashrc)
   * Profiles -> Man page for easy read. Slight opacity (92%)
+* Setup SSH keys in github
+  * Generate one
+  * Add laptop to it
+
+# Coding Apps
 * [Sublime Text 3](https://www.sublimetext.com/3)
   * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
