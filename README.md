@@ -7,9 +7,9 @@ Also helpful for other people to see the tools that I'm using
 * [BetterTouchTool](https://folivora.ai/) - for window snapping + shortcuts
   * costs money to get a license but I deem this to be worth it
 * [Chrome](https://www.google.com/chrome/) for the extensions
-  * [Quick Tabs - Chrom Extension](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) for managing tabs
-  * [Vimium - Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - for navigating web pages with vim hotkeys
-  * [Shortkeys - Chrome extension](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) - for running javascript in the browser. Worth the $1.99 imo
+  * [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) for managing tabs
+  * [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - for navigating web pages with vim hotkeys
+  * [Shortkeys](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) - for running javascript in the browser. Worth the $1.99 imo
   * [uBlock Origin for privacy](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
   * [Neutral Face Emoji Tools
 ](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej/related?hl=en) for adding slack emojis en masse
