@@ -15,6 +15,8 @@ Also helpful for other people to see the tools that I'm using
 ](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej/related?hl=en) for adding slack emojis en masse
   * [Markdown here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa/related?hl=en) for email markdown conversions
   * [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) for viewing markdown readme.md in code
+   * [Keyboard Shortcuts to Close Other/Right Tabs
+](https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/dkoadhojigekhckndaehenfbhcgfeepl?hl=en)
 * [Native slack](https://slack.com/downloads/mac) for messaging
 
 # Environment Related
