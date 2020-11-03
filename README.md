@@ -68,3 +68,6 @@ vim
 2. Install the Firebase CLI:
  * `curl -sL https://firebase.tools | bash`
 3. [Install JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (required to run firebase emulate) 
+
+For frontend:
+1. `brew install yarn`
