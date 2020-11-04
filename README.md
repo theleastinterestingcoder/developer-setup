@@ -71,3 +71,4 @@ vim
 
 For frontend:
 1. `brew install yarn`
+2. Install [React Developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) for Chrome
