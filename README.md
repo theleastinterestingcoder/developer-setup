@@ -1,7 +1,7 @@
 # Developer-setup
 To keep tabs on the list of commands that I need to run to get my laptop setup 
 
-Also helpful for other people to see the tools that I'm using
+Also helpful for other people to see the tools that I'm using!
 
 # General Productivity
 * [BetterTouchTool](https://folivora.ai/) - for window snapping + shortcuts
