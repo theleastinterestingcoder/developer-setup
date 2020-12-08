@@ -61,15 +61,3 @@ Note: some command line tools install to `~/bin/`
 # On a remote server
 tmux
 vim
-
-# For Pave
-1. If you haven't already, install `brew` and then:
- * `brew install npm`
- * `brew install nvm`
-2. Install the Firebase CLI:
- * `curl -sL https://firebase.tools | bash`
-3. [Install JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (required to run firebase emulate) 
-
-For frontend:
-1. `brew install yarn`
-2. Install [React Developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) for Chrome
