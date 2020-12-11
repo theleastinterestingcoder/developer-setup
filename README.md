@@ -45,6 +45,7 @@ Note: some command line tools install to `~/bin/`
 * [VSCode](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for viewing git history
   * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for linting and [format on save](https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code)
+  * [Solarized light](https://marketplace.visualstudio.com/items?itemName=AnnaOwens.solarizedLightThemeVS) because 😎
 * [beyondcompare](https://www.scootersoftware.com/) - for diffing files
   * Pay some money to use as difftool and mergetool (worth it imo)
   * Launch from command line: `ln -s /Applications/Beyond\ Compare.app/Contents/MacOS/bcomp ~/bin/bcomp`
