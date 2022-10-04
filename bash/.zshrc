@@ -21,4 +21,5 @@ zle -N edit-command-line
 bindkey "^X^E" edit-command-line
 
 # Prompt on the right side https://stackoverflow.com/a/60842361
-RPROMPT="[%D{%f/%m/%y} | %D{%L:%M:%S}]"
+# Formatting here: https://man7.org/linux/man-pages/man1/date.1.html
+RPROMPT="%{$fg[yellow]%}%D{%a %F} %@"
