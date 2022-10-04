@@ -19,3 +19,6 @@ bindkey -e
 autoload -z edit-command-line
 zle -N edit-command-line
 bindkey "^X^E" edit-command-line
+
+# Prompt on the right side https://stackoverflow.com/a/60842361
+RPROMPT="[%D{%f/%m/%y} | %D{%L:%M:%S}]"
