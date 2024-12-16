@@ -43,6 +43,12 @@ Also helpful for other people to see the tools that I'm using!
 * Setting up Git
   * Generate + add ssh key on github. [Test it like this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/testing-your-ssh-connection)
 
+# Environment
+Install the most recent version of python3:
+- https://www.freecodecamp.org/news/python-version-on-mac-update/
+** `brew install pyenv`
+** `pyenv install 3.13.1`
+  
 # Coding Apps
 Note: some command line tools install to `~/bin/`
 
