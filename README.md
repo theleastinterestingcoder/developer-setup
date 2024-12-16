@@ -70,3 +70,6 @@ Note: some command line tools install to `~/bin/`
 # On a remote server
 tmux
 vim
+
+# Misc stuff
+FB messenger
