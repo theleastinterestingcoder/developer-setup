@@ -2,7 +2,12 @@
 To keep tabs on the list of commands that I need to run to get my laptop setup 
 
 Also helpful for other people to see the tools that I'm using!
-
+# Getting started
+1. Go through mac onboarding: don't import new profile, no to analytics, add cards, etc
+2. System settings (hide dock, battery display, etc)
+3. Download 1password
+   * Use your phone to scan and activate
+  
 # General Productivity
 * [BetterTouchTool](https://folivora.ai/) - for window snapping + shortcuts
   * costs money to get a license but I deem this to be worth it
