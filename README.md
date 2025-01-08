@@ -19,9 +19,8 @@ Also helpful for other people to see the tools that I'm using!
   * [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - for navigating web pages with vim hotkeys. Import backup from `vimium-options.json`.
   * [Shortkeys](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck?hl=en) - for running javascript in the browser. Worth the $1.99 imo
   * [uBlock Origin for privacy](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
-  * [Neutral Face Emoji Tools
   * Disable "page back" with gesture: `defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE` (remember to test)
-](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej/related?hl=en) for adding slack emojis en masse
+* [Neutral Face Emoji Tools](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej/related?hl=en) for adding slack emojis en masse
   * [Markdown here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa/related?hl=en) for email markdown conversions
   * [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) for viewing markdown readme.md in code
    * [Keyboard Shortcuts to Close Other/Right Tabs
