@@ -1,4 +1,4 @@
-// For VSCode: Place your key bindings in this file to override the defaultsauto[]
+// VSCode option: Preferences: Open keyboard shortcuts (JSON)
 [
     {
         "key": "ctrl+shift+up",
@@ -97,14 +97,6 @@
         "key": "f12",
         "command": "-editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "cmd+[",
-        "command": "workbench.action.navigateBack"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "-workbench.action.navigateBack"
     },
     {
         "key": "cmd+[",
