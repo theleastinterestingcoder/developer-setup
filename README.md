@@ -74,6 +74,17 @@ Note: some command line tools install to `~/bin/`
    * Setup rules based comparison so contents of files are examined: https://www.scootersoftware.com/support.php?zz=kb_samebutdifferent
    * Follow through on symbolic links (else, git difftool looks weird): https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/11818-git-dir-diff-doesn-t-seem-to-match-files
 
+# Git configuration
+
+To change directory to the root of the git repo [link](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command):
+```
+git config --global alias.root 'rev-parse --show-toplevel'
+```
+so that
+```
+# now goes to the root directory 
+cd $(git root) 
+```
 # On a remote server
 tmux
 vim
