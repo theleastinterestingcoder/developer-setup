@@ -43,6 +43,7 @@ Also helpful for other people to see the tools that I'm using!
   * Profiles -> Man page for easy read. Slight opacity (92%)
 * Setting up Git
   * Generate + add ssh key on github. [Test it like this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/testing-your-ssh-connection)
+* Turn on "Use Option as Meta Key" in terminal settings
 
 # Environment
 Install the most recent version of python3:
