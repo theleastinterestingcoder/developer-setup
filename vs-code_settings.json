@@ -1,0 +1,50 @@
+# Preferences: Open User Settings JSON
+# Sets colors on [Solarized Light+]
+{
+  "window.commandCenter": 1,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Solarized Light+",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.tokenColorCustomizations": {
+        "[Solarized Light+]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.parameter.function.language.special.self.python",
+                    "settings": {
+                        "foreground": "#00a1f2d7"  
+                    }
+                },
+                {
+                    "scope": "meta",
+                    "settings": {
+                        "foreground": "#5d2c07b7" 
+                    }
+                },
+                {
+                    "scope": "source",
+                    "settings": {
+                        "foreground": "#323344df"  
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#1e259e"  
+                    }
+                },
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#b46103ec"  
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.python",
+                    "settings": {
+                        "foreground": "#323344df"  
+                    }
+                }
+            ]
+        }
+    }
+}
