@@ -159,3 +159,4 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 "https://jameschambers.co.uk/vim-typescript-slow
 set re=0
+set paste
