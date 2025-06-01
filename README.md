@@ -57,7 +57,7 @@ Note: some command line tools install to `~/bin/`
 * [Sublime Text 3](https://www.sublimetext.com/3)
   * link to the command line with `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`
   * [Pretty Json Plugin](https://packagecontrol.io/packages/Pretty%20JSON) for formatting and prettifying json
-* [VSCode](https://code.visualstudio.com/)
+* [VSCode](https://code.visualstudio.com/) or Cursor (a fork of visual studio but with native agentic coding)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) for viewing git history
   * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for linting and [format on save](https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code)
   * [Solarized light](https://marketplace.visualstudio.com/items?itemName=AnnaOwens.solarizedLightThemeVS) because 😎
