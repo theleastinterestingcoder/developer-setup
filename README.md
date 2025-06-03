@@ -26,6 +26,9 @@ Also helpful for other people to see the tools that I'm using!
    * [Keyboard Shortcuts to Close Other/Right Tabs
 ](https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/dkoadhojigekhckndaehenfbhcgfeepl?hl=en)
 * [Native slack](https://slack.com/downloads/mac) for messaging
+  * Make sure that MacOS allows slack to send notifications
+  * [Test] Slack -> Preferences -> Notifications -> Sound & appearace -> Show an example
+  * [Turn it on] MacOs -> Spotlight -> System settings -> Notifications -> Find slack -> Allow notifications -> Toggle on
 
 # Environment Related
 * Fundamental stuff
