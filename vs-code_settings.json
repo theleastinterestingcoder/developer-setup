@@ -3,6 +3,8 @@
 {
   "window.commandCenter": 1,
   "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
   "workbench.colorTheme": "Solarized Light+",
   "git.openRepositoryInParentFolders": "always",
   "editor.tokenColorCustomizations": {
