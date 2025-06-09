@@ -202,10 +202,6 @@
         "command": "workbench.action.focusThirdEditorGroup"
     },
     {
-        "key": "ctrl+shift+cmd+b",
-        "command": "workbench.action.toggleAuxiliaryBar"
-    },
-    {
         "key": "alt+cmd+b",
         "command": "-workbench.action.toggleAuxiliaryBar"
     },
