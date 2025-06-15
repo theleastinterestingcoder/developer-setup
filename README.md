@@ -1,5 +1,5 @@
 # Developer-setup
-To keep tabs on the list of commands that I need to run to get my laptop setup 
+To keep tabs on the list of commands that I need to run to get my laptop setup.
 
 Also helpful for other people to see the tools that I'm using!
 # Getting started
