@@ -95,3 +95,4 @@ vim
 
 # Misc stuff
 FB messenger
+ChatGPT App
