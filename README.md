@@ -76,7 +76,9 @@ Note: some command line tools install to `~/bin/`
        git config --global mergetool.bc3.trustExitCode true
      ```
    * Setup rules based comparison so contents of files are examined: https://www.scootersoftware.com/support.php?zz=kb_samebutdifferent
-   * Follow through on symbolic links (else, git difftool looks weird): https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/11818-git-dir-diff-doesn-t-seem-to-match-files
+   <img width="519" height="507" alt="image" src="https://github.com/user-attachments/assets/4431318b-af1b-4801-b46e-498ecf10ed4e" />
+   * Follow through on symbolic links (else, git difftool looks weird, esp `difftool -d`): https://www.scootersoftware.com/vbulletin/forum/beyond-compare-4-discussion/linux-aa/11818-git-dir-diff-doesn-t-seem-to-match-files
+  <img width="509" height="510" alt="image" src="https://github.com/user-attachments/assets/71ac4ad0-3b2d-4851-a29c-071ddf6b7944" />
 
 # Git configuration
 
