@@ -91,6 +91,17 @@ so that
 # now goes to the root directory 
 cd $(git root) 
 ```
+
+To get the branch quickly:
+```
+git config --global alias.cb "rev-parse --abbrev-ref HEAD"
+```
+So that you can do 
+```
+git difftool -d $(git cb)
+```
+to compare current against branch across multiple commits
+
 # On a remote server
 tmux
 vim
