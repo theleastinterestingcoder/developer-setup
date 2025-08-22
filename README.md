@@ -2,6 +2,7 @@
 To keep tabs on the list of commands that I need to run to get my laptop setup.
 
 Also helpful for other people to see the tools that I'm using!
+
 # Getting started
 1. Go through mac onboarding: don't import new profile, no to analytics, add cards, etc
 2. System settings (hide dock, show battery precentage in menu bar, etc)
@@ -108,4 +109,4 @@ vim
 
 # Misc stuff
 FB messenger
-ChatGPT App
+ChatGPT Desktop app
