@@ -7,7 +7,7 @@ Also helpful for other people to see the tools that I'm using!
 1. Go through mac onboarding: don't import new profile, no to analytics, add cards, etc
 2. System settings (hide dock, show battery precentage in menu bar, etc)
    ** Turn off "add period with double space"
-4. Download 1password
+4. Download 1password 8
    * Use your phone to scan and activate
   
 # General Productivity
