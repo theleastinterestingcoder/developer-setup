@@ -7,7 +7,9 @@ To keep tabs on the list of commands that I need to run to get my laptop setup, 
    ** Turn off "add period with double space"
 4. Download 1password 8
    * Use your phone to scan and activate
-  
+5. ChatGPT mac os app
+
+
 # General Productivity
 * [BetterTouchTool](https://folivora.ai/) - for window snapping + shortcuts
   * costs money to get a license but I deem this to be worth it
