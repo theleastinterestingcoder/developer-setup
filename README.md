@@ -30,7 +30,10 @@ To keep tabs on the list of commands that I need to run to get my laptop setup, 
   * Make sure that MacOS allows slack to send notifications
   * [Test] Slack -> Preferences -> Notifications -> Sound & appearace -> Show an example
   * [Turn it on] MacOs -> Spotlight -> System settings -> Notifications -> Find slack -> Allow notifications -> Toggle on
-
+* [calendly](https://calendly.com/) for meeting scheduling
+  * check if there is an outstanding group org to be a part of
+  * otherwise, free tier (1 meeting link) is fine
+ 
 # Environment Related
 * Fundamental stuff
   * `mkdir ~/bin` for custom scripts and installation (often for launching tools like sublime for shell)
