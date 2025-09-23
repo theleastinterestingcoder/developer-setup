@@ -1,52 +1,22 @@
 # Preferences: Open User Settings JSON
-# Sets colors on [Solarized Light+]
 {
-  "window.commandCenter": 1,
-  "editor.formatOnSave": true,
-  "editor.insertSpaces": true,
-  "editor.tabSize": 4,
-  "workbench.colorTheme": "Solarized Light+",
-  "git.openRepositoryInParentFolders": "always",
-  "editor.tokenColorCustomizations": {
-        "[Solarized Light+]": {
-            "textMateRules": [
-                {
-                    "scope": "variable.parameter.function.language.special.self.python",
-                    "settings": {
-                        "foreground": "#00a1f2d7"  
-                    }
-                },
-                {
-                    "scope": "meta",
-                    "settings": {
-                        "foreground": "#5d2c07b7" 
-                    }
-                },
-                {
-                    "scope": "source",
-                    "settings": {
-                        "foreground": "#323344df"  
-                    }
-                },
-                {
-                    "scope": "entity.name.function",
-                    "settings": {
-                        "foreground": "#1e259e"  
-                    }
-                },
-                {
-                    "scope": "meta.function-call.generic.python",
-                    "settings": {
-                        "foreground": "#b46103ec"  
-                    }
-                },
-                {
-                    "scope": "variable.parameter.function.language.python",
-                    "settings": {
-                        "foreground": "#323344df"  
-                    }
-                }
-            ]
-        }
+    "[jsonc]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": false,
+    "files.trimTrailingWhitespace": true,
+    "git.openRepositoryInParentFolders": "always",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.languageServer": "Pylance",
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
     }
 }
