@@ -42,7 +42,7 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTUUID" : "46D21774-32F4-4491-B45A-24FC354025CC",
           "BTTPredefinedActionType" : 93,
-          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter  or  Corner",
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter or Corner",
           "BTTAdditionalConfiguration" : "1835049",
           "BTTKeyboardShortcutKeyboardType" : 4277,
           "BTTTriggerOnDown" : 1,
