@@ -8,7 +8,7 @@ To keep tabs on the list of commands that I need to run to get my laptop setup, 
    ** Turn off "add period with double space"
 4. Download 1password 8
    * Use your phone to scan and activate
-5. ChatGPT MAC OS app
+5. ChatGPT MAC OS app (be mindful of your local security policy)
 
 
 # General Productivity
