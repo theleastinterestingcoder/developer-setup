@@ -1,6 +1,6 @@
 
 # Developer-setup
-To keep tabs on the list of commands that I need to run to get my laptop setup, and so that it is easier to setup on a new one.
+To keep tabs on the list of commands that I need to run to get my laptop setup, and so that it is easier to setup on a new one
 
 # Getting started
 1. Go through mac onboarding: don't import new profile, no to analytics, add cards, etc
