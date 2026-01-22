@@ -1,6 +1,6 @@
 Getting an EC2 instance running with docker/postgres
 -------
-Setting things up end to end so that we can create and serve a web service connected to a database on ec2
+Setting things up end to end so that we can create and serve a web service connected to a database on ec2.
 
 
 # install dependencies
