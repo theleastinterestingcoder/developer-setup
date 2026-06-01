@@ -57,7 +57,7 @@ To keep tabs on the list of commands that I need to run to get my laptop setup, 
 Install the most recent version of python3:
 - https://www.freecodecamp.org/news/python-version-on-mac-update/
 ** `brew install pyenv`
-** `pyenv install 3.13.1`
+** `pyenv install 3.14.1`
   
 # Coding Apps
 Note: some command line tools install to `~/bin/`
